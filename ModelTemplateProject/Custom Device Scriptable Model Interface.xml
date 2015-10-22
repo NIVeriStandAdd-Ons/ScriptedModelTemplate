@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>Scriptable Model Interface</eng>
+    <loc>Scriptable Model Interface</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Inline Model Interface</Type>
+  <MaxOccurrence>50</MaxOccurrence>
+  <MainPageGUID>96f7262e-d258-407c-b907-d5b502be5bc3</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Scriptable Model Interface\Scriptable Model Interface Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Scriptable Model Interface\c\Scriptable Model Interface Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Scriptable Model Interface\Scriptable Model Interface Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>VxWorks</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Scriptable Model Interface\c\Scriptable Model Interface Engine VxWorks.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Scriptable Model Interface\Scriptable Model Interface Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Scriptable Model Interface</eng>
+        <loc>Scriptable Model Interface</loc>
+      </Name>
+      <GUID>96f7262e-d258-407c-b907-d5b502be5bc3</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+	  <ActionVIOnLoad>
+		<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\On Load.vi</Path>
+	  </ActionVIOnLoad>
+    </Page>
+    
+<Page>
+      <Name>
+        <eng>1</eng>
+        <loc>1</loc>
+      </Name>
+      <GUID>aa11a670-d93a-4470-97d1-1e78d67c0480</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\1.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>2</eng>
+        <loc>2</loc>
+      </Name>
+      <GUID>f384158c-1d49-4389-b57a-3875b0f073b3</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\2.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>3</eng>
+        <loc>3</loc>
+      </Name>
+      <GUID>cbaafd6c-859f-468b-83b0-c6fe6aff515c</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\3.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>4</eng>
+        <loc>4</loc>
+      </Name>
+      <GUID>82c4a5a8-7de7-4793-bb93-ff0d47a2e330</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\4.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>5</eng>
+        <loc>5</loc>
+      </Name>
+      <GUID>f7ac7dab-51c1-4275-a848-02e1db423747</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Scriptable Model Interface\Scriptable Model Interface Configuration.llb\5.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
