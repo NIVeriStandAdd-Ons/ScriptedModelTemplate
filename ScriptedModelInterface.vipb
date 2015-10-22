@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-10-22 14:45:46" Modified_Date="2015-10-22 15:17:41" Creator="Daniel" Comments="" ID="b9523b91b321f75eee5d80031b30ee77">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-10-22 14:45:46" Modified_Date="2015-10-22 16:32:28" Creator="Daniel" Comments="" ID="6e7f3411d5d3f1319c8f1b5593984431">
   <Library_General_Settings>
     <Package_File_Name>ni_utility_ScriptedModelInterface</Package_File_Name>
-    <Library_Version>2014.0.0.3</Library_Version>
+    <Library_Version>2014.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -120,6 +120,18 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Sample Project/MetaData</Path>
+        <Destination>9</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Sample Project/Source</Path>
+        <Destination>9</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -130,6 +142,12 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Compile_Exclusions>
+        <Path>Sample Project/Source</Path>
+      </Compile_Exclusions>
+      <Compile_Exclusions>
+        <Path>Sample Project</Path>
+      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
