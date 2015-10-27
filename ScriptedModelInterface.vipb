@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-10-22 14:45:46" Modified_Date="2015-10-22 16:50:34" Creator="Daniel" Comments="" ID="515f7eaeb89a6ef33082f41fb31f29d5">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-10-22 14:45:46" Modified_Date="2015-10-27 16:20:54" Creator="Daniel" Comments="" ID="6872de74e4a4e561443ab2142eba1747">
   <Library_General_Settings>
     <Package_File_Name>ni_utility_ScriptedModelInterface</Package_File_Name>
-    <Library_Version>2014.0.0.6</Library_Version>
+    <Library_Version>2014.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>NI</Packager>
       <URL>https://github.com/NIVeriStandAdd-Ons/</URL>
-      <Release_Notes/>
+      <Release_Notes>Now supports subVIs in the model</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
